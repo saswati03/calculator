@@ -22,14 +22,7 @@ html {
     background-color: #ecf0f3;
     transition: background 0.2s linear;
 }
-html[data-theme="dark"] {
-    font-size: 90%;
-    box-sizing: initial;
-    line-height: 1.2;
-    background-color: #303a4d;
-    /* background-color: #263238; */
-    transition: background 0.2s linear;
-}
+
 body{
     display: flex;
     flex-direction: column;
@@ -150,6 +143,15 @@ button:active{
 }
 
 /* Dark Theme */
+
+html[data-theme="dark"] {
+    font-size: 90%;
+    box-sizing: initial;
+    line-height: 1.2;
+    background-color: #303a4d;
+    /* background-color: #263238; */
+    transition: background 0.2s linear;
+}
 
 [data-theme="dark"] .calculator{
     background-color: #010e18;
