@@ -17,7 +17,7 @@
 <body>
 
     <div class="mode">
-        <input type="checkbox" class="checkbox" name="theme" id="checkbox" readonly>
+        <input type="checkbox" class="checkbox" name="theme" id="checkbox">
         <label for="checkbox" class="label">
             <i class="fas fa-moon"></i>
             <i class="fas fa-sun"></i>
@@ -27,7 +27,7 @@
 
     <div class="container">
         <div class="calculator">
-            <input type ="text" placeholder="0" id="output-screen">
+            <input type ="text" placeholder="0" id="output-screen" readonly>
             <button onclick="Clear()" class="clear">AC</button>
             <button onclick="del()" class="delete">DEL</button>
             <button onclick="display('%')" class="operator">%</button>
